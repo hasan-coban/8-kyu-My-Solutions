@@ -16,3 +16,11 @@ countSheeps([true,  true,  true,  false,
 function countSheeps(arrayOfSheeps) {
   return arrayOfSheeps.filter(Boolean).length;
 }
+//https://www.codewars.com/kata/5a805d8cafa10f8b930005ba/solutions/javascript?filter=me&sort=best_practice&invalids=false
+//MY S:
+function nearestSq(n){
+    // your code
+  return Math.round(Math.sqrt(n))**2
+}
+//S2:
+const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2);
