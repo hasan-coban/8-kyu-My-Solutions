@@ -1,12 +1,19 @@
 /*
-Complete the solution so that it reverses all of the words within the string passed in.
+You need to write a function that reverses the words in a given string. A word can also fit an empty string. 
+If this is not clear enough, here are some examples:
 
-Words are separated by exactly one space and there are no leading or trailing spaces.
+As the input may have trailing spaces, you will also need to ignore unneccesary whitespace.
 
-Example(Input --> Output):
+Example (Input --> Output)
 
-"The greatest victory is that which requires no battle" --> "battle no requires which that is victory greatest The"
+"Hello World" --> "World Hello"
+"Hi There." --> "There. Hi"
 */
-function reverseWords(str){
-  return str.split(' ').reverse().join(' ');
+//My S:
+function reverse(str){
+return  str==""?"":str.split(" ").reverse().join(" ")
+}
+//2nd
+function reverse(string){
+  return string.split(' ').reverse().join(' ');
 }
